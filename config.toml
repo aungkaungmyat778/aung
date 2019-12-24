@@ -1,0 +1,29 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My  Site"
+theme ="ananke"
+
+
+
+[params]
+logo="ab.jpg"
+home="Home"
+homeLayoutToggle=true
+description="This is the golden-land"
+[params.preloader]
+enable=true
+[params.search]
+enable=true
+
+[menu]
+[[ menu .main ]]
+name="All MEme"
+url="posts"
+weight=1
+[[menu.main]]
+name="about"
+url="about"
+[[menu.main]]
+name="Contact"
+url="contact"
+
